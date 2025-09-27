@@ -1,0 +1,29 @@
+[gd_scene load_steps=3 format=3 uid="uid://fuvrw1rhuxt2"]
+
+[ext_resource type="Script" uid="uid://6k5ri2c856no" path="res://addons/url_texture/class/url_texture.gd" id="1_0fbet"]
+
+[sub_resource type="Texture2D" id="Texture2D_0fbet"]
+resource_local_to_scene = false
+resource_name = ""
+script = ExtResource("1_0fbet")
+url = ""
+cache_mode = 0
+download_type = 0
+metadata/_custom_type_script = "uid://6k5ri2c856no"
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = SubResource("Texture2D_0fbet")
